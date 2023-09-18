@@ -1,0 +1,291 @@
+/* 
+bg color
+#F8F7F2
+
+li bg color
+#C2A27F
+
+checkbox color
+#5F432C
+
+font-family: 'Bitter', serif;
+font-family: 'Outfit', sans-serif;
+
+
+*/
+
+body{
+  background-color: #F8F7F2;
+  height: 100%;
+    
+}
+
+.page-container{
+  min-height: 100%;
+  position: relative;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 48px;
+}
+
+.strike{
+  text-decoration: line-through;
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    margin-top: 24px;
+
+    /* background-color: grey; */
+}
+
+footer{
+  
+  margin-top: 48px;
+  bottom: 0px;
+  height: 60px;
+  align-self: fl;
+  padding-top: 24px;
+
+}
+
+.font1{
+    font-family: 'Bitter', serif;
+}
+
+.font2{
+    font-family: 'Outfit', sans-serif;
+  
+}
+
+.text-color{
+  color: #5F432C;
+}
+
+
+
+.li-container{
+    height: 60px;
+    width: 40%;
+    min-width: 340px;
+    padding: 12px 32px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    align-items: center;
+    display: inline-flex;   
+   
+}
+
+.shadowed{
+  box-shadow: 4px 4px  black;
+}
+
+.rounded{
+  border-radius: 60px;
+}
+
+.responsive{
+  width: 40%;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.container-color{
+  background-color: #C2A27F;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading-3{
+    font-size: 20px;   
+}
+
+textarea::placeholder{
+  color: #5F432C;
+}
+
+textarea{
+  border: 0px;
+  resize: none;
+}
+
+.heading-4{
+  font-size: 16;
+}
+
+/* container styles */
+
+.note-container{
+  height: 120px;
+  /* width: 60%; */
+  padding-left: 24px;
+  padding-top: 24px;
+  margin-left: 24px;
+}
+
+.to-do-list-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px 12px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+
+
+
+/* nav section styles */
+.menu-img{
+  height: 20px;
+  width: 20px;
+  fill: #5F432C;
+}
+
+.briefcase{
+  background-image: url(../briefcase-solid.svg);
+}
+
+.calendar{
+  background-image: url(../calendar-week-solid.svg);
+}
+
+nav{
+  height: 40px;
+  background-color: #C2A27F;
+  padding-top: 16px;
+}
+
+a{
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+/* nav section styles end */
+
+header{
+  width: 102%;
+}
+
+footer{
+  width: 102%;
+  align-self: flex-end;
+}
+
+.footer-text{
+  margin-left: 16px;
+}
+
+form{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/* from net */
+.checkbox-wrapper-61 input[type="checkbox"] {
+    visibility: hidden;
+    display: none;
+    
+  }
+
+  .checkbox-wrapper-61 *,
+  .checkbox-wrapper-61 ::after,
+  .checkbox-wrapper-61 ::before {
+    box-sizing: border-box;
+   
+  }
+
+   .checkbox-wrapper-61 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    
+    
+  }
+  .checkbox-wrapper-61 .check {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 0;
+  }
+  .checkbox-wrapper-61 .label svg {
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .checkbox-wrapper-61 .path1 {
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    transition: .5s stroke-dashoffset;
+    opacity: 0;
+   
+  }
+  .checkbox-wrapper-61 .check:checked + label svg g path {
+    stroke-dashoffset: 0;
+    opacity: 1;
+    
+  }
+
+  /* CSS */
+  .button-55 {
+    align-self: center;
+    background-color: #F8F7F2;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #5F432C;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    align-self: flex-end;
+    align-self: center;
+    border-color: #5F432C;
+    margin-left: 16px;
+  }
+  
+  .button-55:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .button-55:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+
+
+
+
+
+

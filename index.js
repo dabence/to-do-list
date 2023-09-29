@@ -2,7 +2,7 @@ import bodyParser from "body-parser";
 import express from "express";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 
 const options = {  year: 'numeric', month: 'short', day: 'numeric' };
 var currentDate =  new Date().toLocaleDateString('en-US', options);
